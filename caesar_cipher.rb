@@ -7,3 +7,9 @@ def get_array_nums(str)
   #Returns an array of numbers
   str.bytes
 end
+
+def caesar_cipher(str, shift_factor=1)
+  modified_string = ""
+  str_numbers = get_array_nums(str)
+  str_numbers.reduce { |modified_string, num| str + }
+end
